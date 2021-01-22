@@ -3,7 +3,7 @@ library(dplyr)
 library(caret)
 Donor <- readxl::read_excel("/Users/asaavedra/Projects/R/modelamiento-predictivo/Donor.xls")
 
-summary(Donor)
+Donor
 dim(Donor)
 
 set.seed(12345)
