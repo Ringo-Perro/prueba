@@ -1,7 +1,7 @@
 library(readxl)
 library(dplyr)
 library(caret)
-Donor <- readxl::read_excel("Documents/Education/Magister Data Science/07 Modelamiento predictivo para ciencia de datos /Evaluaciones/Tarea 2/Donor.xls")
+Donor <- readxl::read_excel("/Users/asaavedra/Projects/R/modelamiento-predictivo/Donor.xls")
 
 summary(Donor)
 dim(Donor)
